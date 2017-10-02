@@ -15,6 +15,9 @@ int main(int argc,char*argv[])
         }
         for(int k=1; k<=(2*i)-1 ; k++)
         {
+             if (k%2==0)
+                cout<<" ";
+             else
             cout << "*";
         }
         cout<< " " << endl;
